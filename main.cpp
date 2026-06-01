@@ -22,11 +22,11 @@ void calfp(int frates[][3], int fac_rate)
 
     // Weight Factors
     int wtFactors[5][3] = {
-        { 3, 4, 6 },
-        { 4, 5, 7 },
-        { 3, 4, 6 },
-        { 7, 10, 15 },
-        { 5, 7, 10 },
+        { 1, 4, 6 },
+        { 0, 0, 6 },
+        { 3, 1, 0 },
+        { 4, 2, 2 },
+        { 1, 0, 0 },
     };
 
     int UFP = 0;
